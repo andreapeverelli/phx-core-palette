@@ -1,7 +1,7 @@
 import {argbFromHex, CorePalette} from "@material/material-color-utilities";
 
 if(process.argv[2] === "--version") {
-	process.stdout.write("PHX-CORE-PALETTE v1.0.1\n");
+	process.stdout.write("PHX-CORE-PALETTE v1.0.2\n");
 	process.exit(0);
 }
 
