@@ -3,7 +3,7 @@ Material You core palette generation from Hex source color
 
 ## Install from Source
 ```bash
-git clone https://github.com/andreapeverelli/phx-tools.git
+git clone https://github.com/andreapeverelli/phx-core-palette.git
 makepkg -si
 ```
 
@@ -19,7 +19,7 @@ sudo pacman-key --lsign-key CAF1FE155FED7B2F6E05EC6BD88ABED0A94852EC
 sudo pacman -Syy phx-color-palette
 ```
 
-# Usage
+## Usage
 The main purpose is to be used from PHX-TOOLS generate:palette but it can also be run independently with this command:
 ```bash
 phx-color-palette "#color"
