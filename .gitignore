@@ -146,4 +146,4 @@ vite.config.ts.timestamp-*
 /pkg/
 /*.pkg.tar.zst
 /*.pkg.tar.zst.sig
-/bin/*
+/bin/phx-core-palette

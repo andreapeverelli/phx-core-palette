@@ -1,5 +1,5 @@
 pkgname=phx-core-palette
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Material You core palette generation from Hex source color"
 arch=('any')
