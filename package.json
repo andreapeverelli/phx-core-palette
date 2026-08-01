@@ -1,0 +1,17 @@
+{
+  "name": "phx-core-palette",
+  "description": "Material You core palette generation from Hex source color",
+  "version": "1.0.0",
+  "author": "Andrea Peverelli",
+  "license": "GPL-3.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@material/material-color-utilities": "^0.4.0"
+  }
+}
