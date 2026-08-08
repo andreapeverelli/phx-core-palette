@@ -10,12 +10,12 @@ if(process.argv.length < 3) {
 }
 
 if(process.argv[2] === "--version") {
-	process.stdout.write("PHX-CORE-PALETTE v1.0.3\n");
+	process.stdout.write("PHX-CORE-PALETTE v1.0.4\n");
 	process.exit(0);
 }
 
 if(process.argv[2] === "--help") {
-	process.stdout.write("PHX-CORE-PALETTE\n\nCommand structure:\n | phx-core-palette \"#hex_color\"\n | phx-core-palette --version\n | phx-core-palette --help\n");
+	process.stdout.write("PHX-CORE-PALETTE\nMaterial You core palette generation from Hex source color.\n\nCommand structure:\n | phx-core-palette HEX_COLOR(\"#hhhhhh\")\n | phx-core-palette --version\n | phx-core-palette --help\n");
 	process.exit(0);
 }
 

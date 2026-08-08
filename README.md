@@ -1,5 +1,5 @@
 # phx-core-palette
-Material You core palette generation from Hex source color
+Material You core palette generation from Hex source color.
 
 ## Install from Source
 ```bash
@@ -16,11 +16,11 @@ sudo pacman-key --add /tmp/phx-repo-key.asc
 sudo pacman-key --lsign-key CAF1FE155FED7B2F6E05EC6BD88ABED0A94852EC
 
 # Update Repositories and install phx-tools
-sudo pacman -Syy phx-color-palette
+sudo pacman -Syy phx-core-palette
 ```
 
 ## Usage
-The main purpose is to be used from PHX-TOOLS generate:palette but it can also be run independently with this command:
+The main purpose is to be used from PHX-CLI generate:palette but it can also be run independently with this command:
 ```bash
-phx-color-palette "#color"
+phx-core-palette HEX_COLOR("#hhhhhh")
 ```

@@ -1,7 +1,7 @@
 pkgname=phx-core-palette
-pkgver=1.0.3
+pkgver=1.0.4
 pkgrel=1
-pkgdesc="Material You core palette generation from Hex source color"
+pkgdesc="Material You core palette generation from Hex source color."
 arch=('any')
 url="https://github.com/andreapeverelli/phx-color-palette.git"
 license=('GPL-3.0')
