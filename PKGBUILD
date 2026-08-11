@@ -9,7 +9,7 @@ license=("GPL-3.0")
 makedepends=("bun")
 
 build() {
-	mkdir ../bin
+	mkdir -p ../bin
 	bun install
 	bun build index.ts --compile --minify --outfile ../bin/phx-core-palette
 }
