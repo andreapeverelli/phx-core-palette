@@ -1,14 +1,16 @@
 pkgname=phx-core-palette
-pkgver=1.0.4
+pkgver=2.0.0
 pkgrel=1
 pkgdesc="Material You core palette generation from Hex source color."
-arch=('any')
+arch=("x86_64" "aarch64")
 url="https://github.com/andreapeverelli/phx-color-palette.git"
-license=('GPL-3.0')
+license=("GPL-3.0")
 
-depends=('bun')
+makedepends=("bun")
 
 build() {
+	mkdir ../bin
+	bun install
 	bun build index.ts --compile --minify --outfile ../bin/phx-core-palette
 }
 

@@ -10,7 +10,7 @@ if(process.argv.length < 3) {
 }
 
 if(process.argv[2] === "--version") {
-	process.stdout.write("PHX-CORE-PALETTE v1.0.4\n");
+	process.stdout.write("PHX-CORE-PALETTE v2.0.0\n");
 	process.exit(0);
 }
 
