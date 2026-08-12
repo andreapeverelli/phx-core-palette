@@ -2,7 +2,7 @@ pkgname=phx-core-palette
 pkgver=2.0.0
 pkgrel=1
 pkgdesc="Material You core palette generation from Hex source color."
-arch=("x86_64" "aarch64")
+arch=("x86_64")
 url="https://github.com/andreapeverelli/phx-color-palette.git"
 license=("GPL-3.0")
 
